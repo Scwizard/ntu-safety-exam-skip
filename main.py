@@ -26,7 +26,7 @@ EXAM_URL = BASE_URL + "/Home/Zxks/index?ksmk={ksmk}&aa=bb"
 ANSWER_URL = BASE_URL + "/Home/Question/addUserAnswers"
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-DB_PATH = os.path.join(ROOT, "process", "database.db")
+DB_PATH = "database.db"
 
 # 练习章节的ksmk
 EXAM_CHAPTERS = ["10202", "10203", "10204", "10205", "10206"]
